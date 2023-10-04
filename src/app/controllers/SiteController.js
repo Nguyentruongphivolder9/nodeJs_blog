@@ -1,6 +1,4 @@
 class SiteController {
-    
-
     home(req, res) {
         res.render('news');
     }
@@ -11,4 +9,4 @@ class SiteController {
     }
 }
 
-module.exports = new SiteController;
+module.exports = new SiteController();

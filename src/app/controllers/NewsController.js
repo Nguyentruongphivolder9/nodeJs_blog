@@ -1,5 +1,4 @@
 class NewsController {
-    
     index(req, res) {
         res.render('news');
     }
@@ -10,4 +9,4 @@ class NewsController {
     }
 }
 
-module.exports = new NewsController;
+module.exports = new NewsController();
